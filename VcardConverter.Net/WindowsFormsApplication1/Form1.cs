@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1 {
 	using VcardLib;
+	using Logger;
 
 	public partial class Form1 : Form {
 		public Form1() {
@@ -17,7 +18,15 @@ namespace WindowsFormsApplication1 {
 		}
 
 		private void button1_Click(object sender, EventArgs e) {
-			VcardReader.read(new Uri(@"c:\users\ut0729\Dropbox\Backup nokia Marie\Others\Contacts\Alice Paolin.vcf"));
+			string filename = @"c:\users\ut0729\Dropbox\Backup nokia Marie\Others\Contacts\Alice Paolin.vcf";
+			VcardReader reader = new VcardReader();
+
+			try {
+				//reader.addFile(filename);
+				reader.addDir(@"c:\users\ut0729\Dropbox\Backup nokia Marie\Others\Contacts");
+			} catch (Exception ex) {
+				Logger.err(ex, "Form1", "button1_Click");
+			}
 		}
 	}
 }

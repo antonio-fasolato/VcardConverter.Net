@@ -97,6 +97,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{7efff44b-b896-4285-8727-1033c7f5a441}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VcardLib\VcardLib.csproj">
       <Project>{a894e169-5a73-4929-9adc-96ee37d3413e}</Project>
       <Name>VcardLib</Name>
