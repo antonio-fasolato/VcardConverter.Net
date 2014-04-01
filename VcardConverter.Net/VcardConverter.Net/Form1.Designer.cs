@@ -95,6 +95,7 @@
 			this.btnAddFolder.TabIndex = 1;
 			this.btnAddFolder.Text = "Add folder";
 			this.btnAddFolder.UseVisualStyleBackColor = true;
+			this.btnAddFolder.Click += new System.EventHandler(this.btnAddFolder_Click);
 			// 
 			// Form1
 			// 
