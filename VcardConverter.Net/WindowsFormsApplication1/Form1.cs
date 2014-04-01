@@ -24,6 +24,9 @@ namespace WindowsFormsApplication1 {
 			try {
 				//reader.addFile(filename);
 				reader.addDir(@"c:\users\ut0729\Dropbox\Backup nokia Marie\Others\Contacts");
+				foreach (Vcard v in reader.cards) {
+					Logger.debug(v.info, "Form1", "button1_Click");
+				}
 			} catch (Exception ex) {
 				Logger.err(ex, "Form1", "button1_Click");
 			}
