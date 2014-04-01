@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<logger level="trace">
+  <!--<appender type="console" format="[%c %t] %l - %m"/>-->
+  <!--<appender type="visualStudio" format="[%c %t] %l - %m"/>-->
+  <appender type="file" format="[%c %o %t] %l - %m" fileName="c:\tmp\vcard.txt" maxFileSize="1048576"/>
+</logger>

@@ -10,8 +10,8 @@ namespace VcardLib {
 	using fastJSON;
 
 	public class Vcard {
-		//private Thought.vCards.vCard card;
 		private string _filename;
+		private Dictionary<string, bool> fields;
 
 		public Vcard(String filename) {
 			this.filename = filename;
@@ -26,6 +26,8 @@ namespace VcardLib {
 			set {
 				_filename = value;
 				card = new Thought.vCards.vCard(value);
+
+				//We take note of which
 			}
 		}
 

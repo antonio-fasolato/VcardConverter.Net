@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thought.vCards", "Thought.v
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{7EFFF44B-B896-4285-8727-1033C7F5A441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{96E369DB-EBBC-462B-9894-848145A9AC6E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastJSON", "fastJSON\fastJSON.csproj", "{207E91B1-C9F8-4913-88E1-3549EF5F3273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VcardConverter.Net", "VcardConverter.Net\VcardConverter.Net.csproj", "{78D216F4-4646-4365-A710-C529848DCB99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{7EFFF44B-B896-4285-8727-1033C7F5A441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EFFF44B-B896-4285-8727-1033C7F5A441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EFFF44B-B896-4285-8727-1033C7F5A441}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96E369DB-EBBC-462B-9894-848145A9AC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96E369DB-EBBC-462B-9894-848145A9AC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96E369DB-EBBC-462B-9894-848145A9AC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96E369DB-EBBC-462B-9894-848145A9AC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{207E91B1-C9F8-4913-88E1-3549EF5F3273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D216F4-4646-4365-A710-C529848DCB99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D216F4-4646-4365-A710-C529848DCB99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D216F4-4646-4365-A710-C529848DCB99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D216F4-4646-4365-A710-C529848DCB99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
