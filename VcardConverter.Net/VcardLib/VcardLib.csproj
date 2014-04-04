@@ -39,7 +39,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vcard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VcardReader.cs" />
     <Compile Include="VcardWriter.cs" />

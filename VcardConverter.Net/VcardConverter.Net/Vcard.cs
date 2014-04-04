@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Reflection;
 using System.Collections;
 
-namespace VcardLib {
+namespace VcardConverter.Net {
 	using fastJSON;
 
 	public class Vcard {
@@ -33,7 +33,12 @@ namespace VcardLib {
 
 		public String info {
 			get {
-				return String.Format("{0} {1}", card.GivenName, card.FamilyName).Trim();
+				string toReturn = String.Empty;
+				toReturn = String.Format("{0} {1}", card.GivenName, card.FamilyName).Trim();
+				if (toReturn == "") {
+					toReturn = card.Organization;
+				}
+				return toReturn;
 			}
 		}
 
